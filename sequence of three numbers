@@ -1,0 +1,10 @@
+n=int(input("enter the num :"))
+x=str(n)
+a=int(x[0])
+b=int(x[1])
+c=int(x[2])
+if(a==b+1 and b==c+1) or (a+1==b and b+1==c):
+    print("valid")
+else:
+    print("no valid")
+    
