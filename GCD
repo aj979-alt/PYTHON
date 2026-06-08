@@ -1,0 +1,9 @@
+a=int(input("enter a number:"))
+b=int(input("enter a number :"))
+while(b!=0):
+    remain=a%b
+    temp=b
+    a=b
+    b=remain
+print(a)    
+    
