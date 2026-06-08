@@ -1,0 +1,14 @@
+a="r"
+up=0
+l=0
+while(a not in "aeiouAEIOU"):
+    a=input("enter a char :")
+    if a in "aeiouAEIOU" :
+      break
+    if(a.isupper()):
+        up=up+1
+    if(a.islower()):
+        l=l+1
+print("upper is",up)
+print("lower is",l)
+    
