@@ -1,0 +1,8 @@
+import time
+import pytz
+from datetime import datetime
+a1=input("enter a country :")
+a=pytz.timezone (a1)
+b=datetime.now(a)
+time.sleep(1)
+print(a,b)
