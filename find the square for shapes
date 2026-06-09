@@ -1,0 +1,33 @@
+def sq(a):
+    area=a*a
+    print(area)
+def rect(l,b):
+    area=l*b
+    print(area)
+def tri(b,h):
+    area=0.5*b*h
+    print(area)
+def cri(r):
+    area=3.14*r*r
+    print(area)
+    
+    
+print("1.square")
+print("2.rectangle")
+print("3.triangle")
+print("4.circle")
+n=int(input("enter a choi:"))
+if(n==1):
+    a=int(input("area:"))
+    sq(a)
+if(n==2):
+    l=int(input("length:"))
+    b=int(input("base:"))
+    rect(l,b)
+if(n==3):
+    b=int(input("base:"))
+    h=int(input("height:"))
+    tri(b,h)
+if(n==4):
+    r=int(input("radius:"))
+    cri(r)
