@@ -1,0 +1,6 @@
+names=["A","B","C","D","E"]
+ages=[22,36,30,55,4]
+res=list(zip(ages,names))
+res1=sorted(res,reverse=True)
+for i in range(5):
+    print("rank {}.{} age is {}".format(i+1,res1[i][1],res1[i][0]))
