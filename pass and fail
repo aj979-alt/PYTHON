@@ -1,0 +1,16 @@
+names=["A","B","C","D","E"]
+marks=[35,50,60,33,60]
+l=[]
+pos=1
+for i in range(5):
+    if marks[i]>=40:
+        print("{}.{} is passed by {}%".format(pos,names[i],marks[i]))
+        pos=pos+1
+        
+    else:
+        l.append(i)
+pos=1        
+for i in l:
+    print("{}.{} is fail".format(pos,names[i]))
+    pos=pos+1
+    
