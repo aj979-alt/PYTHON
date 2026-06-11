@@ -1,0 +1,17 @@
+class abc:
+    dept="aml"
+    def set_dim(self):
+        x=int(input("enter x: "))
+        y=int(input("enter y :"))
+        self.x=x
+        self.y=y
+        
+    def display(self):
+        print(self.x+self.y)
+        print(abc.dept)
+a1=abc()
+a2=abc()
+a1.set_dim()
+a1.display()
+a2.set_dim()
+a2.display()
