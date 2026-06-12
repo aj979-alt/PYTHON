@@ -1,0 +1,11 @@
+a=int(input("enter a number 1:"))
+b=int(input("enter a number 2:"))
+c=int(input("enter a number 3:"))
+B=max([a,b,c])
+C=B
+while(True):
+    if(B%a==0 and B%b==0 and B%c==0):
+        break
+    else:
+        B=B+C
+print(B)        
