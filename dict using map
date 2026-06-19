@@ -1,0 +1,7 @@
+a={'st1':"ajay",'st2':"david"}
+b=map(lambda x:(x[0].upper(),x[1].upper()),a.items())
+print(dict(b))
+
+a={'a':10,'b':20,'c':30,'d':40}
+b=map(lambda x:(x[0],(x[1]//10)+x[1]),a.items())
+print(dict(b))
