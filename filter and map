@@ -1,0 +1,5 @@
+a=[40,30,35,60,65]
+b=map((lambda x:x+10),filter(lambda x:x>40,a))
+c=filter(lambda x:x>40,(list(map(lambda x:x+10,a))))
+print(list(b))
+print(list(c))
