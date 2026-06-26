@@ -1,0 +1,23 @@
+n=int(input("enter a number:"))
+name=[]
+gen=[]
+for i in range(n):
+    names=input("enter player names :")
+    gender=input("gender : ")
+    name.append(names)
+    gen.append(gender)
+male=[]
+female=[]
+for name,gen in zip(name,gen):
+    if gen=="m" or gen== "M":
+        male.append(name)
+    elif gen=="f" or gen== "F":
+        female.append(name)
+print(male)
+print(female)
+pos=1
+for i in male:
+    for j in female:
+        print("team {}.{}:{}".format(pos,i,j))
+        pos=pos+1
+        
